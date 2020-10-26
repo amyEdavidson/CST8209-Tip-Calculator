@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <title>Tip Calculator for Canada</title>
+</head>
+<body>
+    <img src="IMG/YAberta.jpg" alt="Alberta" height="300" width=100%>
+    <h1>Tip Calculator for Canada</h1>
+<form name="TipCA">
+    <table>
+    <tr>
+        <td>How much is the bill?</td>
+        <td>
+            <input type="number" name="bill" id="bill">
+            <span id="billWarning" class="alert"></span>
+        </td>
+    </tr>
+    <tr>
+        <td>How was your experience?</td>
+        <td>
+            <select name="experience" id="experience">
+            <option value="">Select experience</option>
+            <option value=".20">Good</option>
+            <option value=".13">Meh</option>
+            <option value=".01">Flipped the table</option>
+            </select>
+            <span id="experienceWarning" class="alert"></span>
+        </td>
+    </tr>
+    <tr>
+        <td>How many people are paying the bill?</td>
+        <td>
+            <input type="number" name="split" id="split">
+            <span id="splitWarning" class="alert"></span>
+        </td>
+    </tr>
+        <td><input type="reset" value="Reset" name="resetBtn"></td>
+        <td><input type="submit" value="Submit" name="submitBtn" id="submitBtn" onclick="tipCalculator()"></td>
+    </tr>
+    </table>
+</form>
+<a><input type="button" value="Click me!" id='myBtn' name="myBtn"></a>
+<a><input type="button" value="Guess the secret number and win a prize" id='myGame' onclick="guessNum()"></a>
+<p id='CAlist'></p>
+
+
+<link href="../Final Lab/main.css" rel="stylesheet" type="text/css">
+<script src="../Final Lab/jquery-3.4.1.js"></script>
+<script src="../Final Lab/validation.js"></script>
+<script src="../Final Lab/events.js"></script>
+<script src="../Final Lab/myFunctions.js"></script>
+
+
+</body>
+</html>

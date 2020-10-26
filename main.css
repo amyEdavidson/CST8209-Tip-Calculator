@@ -1,0 +1,25 @@
+table{
+    border: powderblue dotted 5px;
+    padding:10px;
+    align-content: center;
+}
+
+.h1{
+    size:15px;
+}
+
+.td{
+    padding:5px;
+}
+
+.alert{
+    color:red;
+}
+
+.change{
+    color: pink;
+}
+
+a{
+    padding:15px;
+}
